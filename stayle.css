@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Gilroy-Bold{
+  font-family: 'Gilroy-Bold', sans-serif;
+}
+.Gilroy-Heavy{
+  font-family: 'Gilroy-Heavy', sans-serif;
+}
+.Gilroy-Light{
+  font-family: 'Gilroy-Light', sans-serif;
+}
+.Gilroy-Medium{
+  font-family: 'Gilroy-Medium', sans-serif;
+}
+.Gilroy-Regular{
+  font-family: 'Gilroy-Regular', sans-serif;
+}
+
+body {
+  overflow: auto;
+}
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+
+
+.color-bg-1 {
+  background-color: #ffca40;
+}
+.color-bg-1:hover{
+background-color: #ecb730;
+}
+.plas-color {
+  color: #a4a4a4;
+}
+.w-img {
+  width: 1.5rem;
+}
+.heig {
+  height: 100vh;
+}

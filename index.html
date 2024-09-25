@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="./stayle.css" />
+    <title>log in</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-sm-12 col-md-6 bg-light">
+          <div class="flex-column justify-content-center p-5">
+            <div
+              id="carouselExampleSlidesOnly"
+              class="carousel slide w-100"
+              data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="./imgas/Analysis-cuate.svg"
+                    class="d-block w-100"
+                    alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./imgas/Career progress-cuate.svg"
+                    class="d-block w-100"
+                    alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./imgas/Payment Information-cuate.svg"
+                    class="d-block w-100"
+                    alt="..." />
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center">
+              <p class="fs-4 fw-bold text-center Gilroy-Medium">
+                manage sales, inventory <br />
+                and other transactions
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <div class="d-flex flex-column justify-content-center w-100 p-lg-5">
+            <div class="py-2"><h1 class="Gilroy-Bold ">Get started</h1></div>
+            <div>
+              <p class="Gilroy-Regular">Already have an account? <a href="./login.html">sign in</a></p>
+            </div>
+            <div>
+              <form onsubmit="handleSubmit(event)">
+                <div class="row mb-4">
+                  <div class="w-100">
+                    <input
+                      placeholder="sales id number"
+                      type="text"
+                      class="form-control bg-light py-3 plas-color"
+                      id="email" />
+                  </div>
+                </div>
+                <div class="row mb-4">
+                  <div class="w-100">
+                    <input
+                      placeholder="password"
+                      type="text"
+                      class="form-control bg-light p-3 plas-color"
+                      id="password" />
+                  </div>
+                </div>
+                <div class="col-sm-12">
+                  <button type="submit" class="btn btn-color color-bg-1 w-100 my-4 p-3 Gilroy-Regular">
+                    Sign up
+                  </button>
+                </div>
+              </form>
+              <div class="d-flex justify-content-center py-4">
+                <p class="fs-4 plas-color Gilroy-Medium">or</p>
+              </div>
+              <div class="d-flex justify-content-between w-100 gap-2 Gilroy-Regular">
+                <button class="btn col border py-3">
+                  <img class="w-img" src="./imgas/google.png" alt="" />
+                  sign up wth google
+                </button>
+                <button class="btn col border py-3 Gilroy-Regular">
+                  <img
+                    class="w-img"
+                    src="./imgas/facebook.png"
+                    alt="" />
+                  sign up wth facebook
+                </button>
+              </div>
+              <div class="my-2 p-2 Gilroy-Regular">
+                <p>
+                  By signing up I agree to
+                  <a href="">the terms of service</a> <br />
+                  and
+                  <a href="">privacy policy</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+    <script src="./regexPatterns.js"></script>
+    <script src="./register.js"></script>
+  </body>
+</html>
